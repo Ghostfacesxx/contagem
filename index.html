@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#0a0e27">
+    <title>0063 - Contagem Regressiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Previne scroll zoom em mobile */
+        input, select, textarea {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="pulse-border">
+                <div class="course-title">
+                    <span class="code-bracket">&lt;</span>
+                    <span class="course-number">0063</span>
+                    <span class="code-bracket">&gt;</span>
+                </div>
+            </div>
+            <h1 class="course-name">
+                <span class="glitch" data-text="DEV SISTEMAS">DEV SISTEMAS</span>
+            </h1>
+            <p class="subtitle">Técnico em Desenvolvimento de Sistemas <br> SENAC - Patos de Minas</p>
+        </div>
+
+        <div class="countdown-wrapper">
+            <div class="countdown-container">
+                <div class="time-unit">
+                    <div class="time-display" id="days">00</div>
+                    <div class="time-label">DIAS</div>
+                </div>
+                <div class="separator">:</div>
+                <div class="time-unit">
+                    <div class="time-display" id="hours">00</div>
+                    <div class="time-label">HORAS</div>
+                </div>
+                <div class="separator">:</div>
+                <div class="time-unit">
+                    <div class="time-display" id="minutes">00</div>
+                    <div class="time-label">MIN</div>
+                </div>
+                <div class="separator">:</div>
+                <div class="time-unit">
+                    <div class="time-display" id="seconds">00</div>
+                    <div class="time-label">SEG</div>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="status">
+            <div class="status-item">
+                <span class="status-label">Data Final:</span>
+                <span class="status-value">27 de Janeiro • 17:30</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Status:</span>
+                <span class="status-value pulse-text" id="statusText">EM ANDAMENTO</span>
+            </div>
+        </div>
+
+        <div class="message-box" id="messageBox">
+            <p id="messageText">Prepare-se para o fim! 🚀</p>
+        </div>
+
+        <div class="footer-elements">
+            <div class="corner-bracket top-left"></div>
+            <div class="corner-bracket top-right"></div>
+            <div class="corner-bracket bottom-left"></div>
+            <div class="corner-bracket bottom-right"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
