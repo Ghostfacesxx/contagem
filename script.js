@@ -1,5 +1,5 @@
-// Data alvo: 27 de janeiro de 2026 às 17:30
-const targetDate = new Date(2026, 0, 27, 17, 30, 0).getTime();
+// Data alvo: 27 de janeiro de 2026 às 17:15
+const targetDate = new Date(2026, 0, 27, 17, 15, 0).getTime();
 
 // Elementos do DOM
 const daysElement = document.getElementById('days');
